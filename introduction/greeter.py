@@ -33,3 +33,16 @@ while i < 5:
     balance *= 1.05
     i += 1
 print(balance)
+
+# 9. I think my solution for 8 already handled this too.
+
+# obj = 'ABcd' - Reassigns
+# obj.upper() - Neither
+# obj = obj.lower() - Reassigns
+# print(len(obj)) - Neither
+# obj = list(obj) - Reassigns
+# obj.pop() - Mutates
+# obj[2] = 'X' - Mutates
+# obj.sort() - Mutates
+# set(obj) - Neither 
+# obj = tuple(obj) - Reassigns
